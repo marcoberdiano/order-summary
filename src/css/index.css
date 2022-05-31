@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.card-plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225deg, 100%, 98%);
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+.card-plan-container .card-plan-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.card-plan-container .card-plan-left .card-plan, .card-plan-container .card-plan-left .card-plan-price {
+  font-size: 1em;
+}
+.card-plan-container .card-plan-left .card-plan {
+  color: hsl(223deg, 47%, 23%);
+}
+.card-plan-container .card-plan-left .card-plan-price {
+  color: hsl(224deg, 23%, 55%);
+}
+.card-plan-container .card-plan-right .card-plan-change {
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 700;
+}
+.card-plan-container .card-plan-right .card-plan-change:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.card-container-body {
+  text-align: center;
+  padding: 20px 30px;
+}
+.card-container-body .card-container-body-title, .card-container-body .card-container-body-paragraph {
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+.card-container-body .card-container-body-title {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+.card-container-body .card-container-body-paragraph {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+}
+.card-container-body .card-btn-payment {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0px 10px 10px hsl(225deg, 100%, 94%);
+}
+.card-container-body .card-btn-payment:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.card-container-body .card-btn-cancel {
+  margin: 10px 0px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(224deg, 23%, 55%);
+}
+.card-container-body .card-btn-cancel:hover {
+  cursor: pointer;
+  color: hsl(223deg, 47%, 23%);
+}
+
+.card-container {
+  background-color: white;
+  width: 23em;
+  height: 34em;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px hsl(225deg, 100%, 94%);
+}
+.card-container .card-img-container .hero-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card-container {
+    width: 20em;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+  height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */

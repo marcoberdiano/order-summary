@@ -1,0 +1,53 @@
+@import './cardPlan';
+
+.card-container-body {
+    text-align: center;
+    padding: 20px 30px;
+
+    .card-container-body-title, .card-container-body-paragraph {
+        margin: 10px 0px;
+        font-size: 1.5em;
+    }
+
+    .card-container-body-title {
+        color: $Darkblue;
+        font-weight: 900;
+    }
+
+    .card-container-body-paragraph {
+        color: $Desaturatedblue;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .card-btn-payment {
+        width: 100%;
+        padding: 20px;
+        margin: 5px 0px;
+        border-radius: 10px;
+        background-color: $Brightblue;
+        color: #FFFF;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        box-shadow: 0px 10px 10px $Paleblue;
+
+        &:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+
+    .card-btn-cancel {
+        margin: 10px 0px;
+        background: none;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        color: $Desaturatedblue;
+        &:hover {
+            cursor: pointer;
+            color: $Darkblue;
+        }
+    }
+}

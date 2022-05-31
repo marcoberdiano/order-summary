@@ -1,0 +1,39 @@
+.card-plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $Verypaleblue;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 20px;
+
+    .card-plan-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        .card-plan, .card-plan-price {
+            font-size: 1em;
+        }
+
+        .card-plan {
+            color: $Darkblue;
+        }
+
+        .card-plan-price {
+            color: $Desaturatedblue;
+        }
+    }
+
+    .card-plan-right {
+        .card-plan-change {
+            color: $Brightblue;
+            font-weight: 700;
+            &:hover {
+                text-decoration: none;
+                opacity: 0.5;
+            }
+        }
+    }
+}

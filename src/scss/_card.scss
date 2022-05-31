@@ -1,0 +1,26 @@
+@import './cardBody';
+
+.card-container {
+    background-color: #FFFF;
+    width: 23em;
+    height: 34em;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px $Paleblue;
+
+    .card-img-container {
+       .hero-img {
+           width: 100%;
+           border-top-left-radius: 20px;
+           border-top-right-radius: 20px;
+       }
+    }
+
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .card-container {
+        width: 20em;
+    }
+
+}
