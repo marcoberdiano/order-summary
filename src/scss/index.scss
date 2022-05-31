@@ -23,3 +23,10 @@ body {
   background-color: $Paleblue;
   height: 100vh;
 }
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+  }
+  
+}
